@@ -1,0 +1,149 @@
+.content{
+	background-color: #fcfcfc;
+}
+.content .top nav{
+	float: left;
+}
+.content .top nav a{
+	float: left;
+	width: 136px;
+	height: 35px;
+	background-color: #7f7f7f;
+	font: bold 16px/35px "微软雅黑";
+	text-align: center;
+	margin-right: 1px;
+}
+.content .top nav a i{
+	border: 10px solid transparent;
+	border-top-color: #ef4813;
+	border-bottom: none;
+	display: none;
+}
+.content .top nav li:first-child a{
+	background-color: #494949;
+}
+.content .top nav li{
+	float: left;
+}
+.content .top nav li a{
+	color: #fff;
+}
+.content .top nav li a:hover{
+	background-color: #ef4811;
+}
+.content .top nav li a:hover i{
+	display: block;
+	position: absolute;
+	margin-left: 60px;
+}
+.content .top>div:last-child{
+	height: 35px;
+	box-sizing: border-box;
+	background-color: #F1F1F1;
+	border-bottom: 2px solid #c1c1c1;
+}
+.content .top>div:last-child p{
+	margin-right: 25px;
+	float: right;
+	line-height: 35px;
+	color: #666666;
+}
+.content .top>div:last-child p a{
+	color: #666666;
+}
+.content .bottom{
+	padding: 17px 25px 54px;
+	border: 1px solid #e8e8e8;
+}
+.content .bottom .title{
+	border-bottom: 1px solid #7f7f7f;
+	margin-bottom: 24px;
+	/*box-shadow:inset 0 0 5px #7F7F7F;*/
+}
+.content .bottom .title a{
+	float: left;
+	width: 90px;
+	height: 22px;
+	font: bold 12px/22px "黑体";
+	color: #343434;
+	text-align: center;
+	background-color: #c5c9ca;
+	margin-right: 1px;
+	transform: skew(20deg);
+}
+.content .bottom .title a:hover{
+	background-color: #ef4811;
+	color: #fff;
+}
+.content .bottom .title a:first-child{
+	margin-left: -5px;
+}
+.content .bottom .title a span{
+	display: inline-block;
+	transform: skew(-20deg);
+	
+}
+.content .bottom dt{
+	float: left;
+}
+.content .bottom dd{
+	width: 605px;
+	float: right;
+}
+.content .bottom h4{
+	height: 31px;
+	border-bottom: 1px dotted #999999;
+	font: 18px/26px "微软雅黑";
+	text-indent: 45px;
+	background: url(../images/icon.png) 27px 6px no-repeat;
+}
+.content .bottom form{
+	padding: 18px 0 30px 24px;
+}
+.content .bottom form input:first-child{
+	width: 147px;
+	height: 20px;
+	border: 1px solid #e4e5e7;
+	background-color: #fff;
+}
+.content .bottom form select{
+	width: 147px;
+	height: 22px;
+	border: 1px solid #e4e5e7;
+	background-color: #fff;
+}
+.content .bottom form input:nth-last-child(2){
+	width: 108px;
+	height: 20px;
+	border: 1px solid #e4e5e7;
+	background-color: #fff;
+}
+.content .bottom form input:last-child{
+	width: 38px;
+	height: 20px;
+	background-color: #5f5f5f;
+	border: 1px solid #9f9f9f;
+	color: #fff;
+	text-align: center;
+}
+.content .bottom form input,.content .bottom form select{
+	margin-right: 24px;
+	outline: none;
+}
+.content .bottom table{
+	border: none;
+	width: 580px;
+	font: 12px/28px "";
+	color: #7e7e7e;
+	border-bottom: 1px solid #F1F1F1;
+	text-align: center;
+	border-collapse:collapse;
+	margin: 15px 0 0 26px;
+}
+.content .bottom table th{
+	font-weight: normal;
+}
+.content .bottom table tr:first-child{
+
+	background-color: #f1f1f1;
+}

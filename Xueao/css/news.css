@@ -1,0 +1,137 @@
+.content{
+	background-color: #fcfcfc;
+}
+.content .top nav{
+	float: left;
+}
+.content .top nav a{
+	float: left;
+	width: 136px;
+	height: 35px;
+	background-color: #7f7f7f;
+	font: bold 16px/35px "微软雅黑";
+	text-align: center;
+	margin-right: 1px;
+}
+.content .top nav a i{
+	border: 10px solid transparent;
+	border-top-color: #ef4813;
+	border-bottom: none;
+	display: none;
+}
+.content .top nav li:first-child a{
+	background-color: #494949;
+}
+.content .top nav li{
+	float: left;
+}
+.content .top nav li a{
+	color: #fff;
+}
+.content .top nav li a:hover{
+	background-color: #ef4811;
+}
+.content .top nav li a:hover i{
+	display: block;
+	position: absolute;
+	margin-left: 60px;
+}
+.content .top>div:last-child{
+	height: 35px;
+	box-sizing: border-box;
+	background-color: #F1F1F1;
+	border-bottom: 2px solid #c1c1c1;
+}
+.content .top>div:last-child p{
+	margin-right: 25px;
+	float: right;
+	line-height: 35px;
+	color: #666666;
+}
+.content .top>div:last-child p a{
+	color: #666666;
+}
+.content .bottom{
+	padding: 12px 20px 22px;
+	border: 1px solid #e8e8e8;
+	overflow: hidden;
+}
+.content .bottom dt{
+	float: left;
+	margin-right: 14px;
+}
+.content .bottom dd{
+	float: left;
+	width: 750px;
+}
+.content .bottom dd h4{
+	font: bold 16px/16px "";
+	margin: 27px 0 10px;
+}
+.content .bottom dd h4 span{
+	color: #CCCCCC;
+	font: 12px "";
+	float: right;
+	margin-top: 5px;
+}
+.content .bottom dd p{
+	font: 12px/20px "";
+}
+.content .bottom dd p a{
+	display: block;
+	width: 60px;
+	height: 18px;
+	background-color: #B1B1B1;
+	color: #fff;
+	font: 12px/18px "";
+	margin: 18px 0 0 0;
+	text-align: center;
+}
+.content .bottom dl{
+	border-bottom: 2px solid #cacaca;
+	padding-bottom: 12px;
+}
+.content .bottom ul li{
+	height: 35px;
+	border-bottom: 1px dotted #b1b1b1;
+	line-height: 35px;
+}
+.content .bottom ul li a{
+	float: left;
+	width: 840px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: url(../images/list.png) 7px 11px no-repeat;
+	text-indent: 24px;
+}
+.content .bottom ul li span{
+	float: right;
+}
+.content .bottom>p{
+	margin: 24px 0 0 6px;
+}
+.content .bottom>p a{
+	float: left;
+	width: 17px;
+	height: 15px;
+	border: 1px solid #cacaca;
+	background-color: #e7e7e7;
+	font: 12px/15px "";
+	text-align: center;
+	margin-right: 6px;
+	color: #666666;
+}
+.content .bottom>p a:first-child,.content .bottom>p a:last-child{
+	float: left;
+	width: 32px;
+	height: 15px;
+	background-color: #656565;
+	border-color: #2c2c2c;
+	color: #fff;
+}
+.content .bottom>p a:hover{
+	color: #fff;
+	background-color: #ef4811;
+	border-color: #c33301;
+}

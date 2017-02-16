@@ -1,0 +1,144 @@
+.fl{
+	float:left; 
+}
+.fr{
+	float: right;
+}
+
+/*------------------------------------------*/
+header{
+	border-bottom: 1px solid #bfbfbf;
+	padding-top: 8px;
+	margin: 0 auto;
+	background-image: -webkit-linear-gradient(#fff 50%,#eee 90%);
+	margin-bottom: 20px;
+	box-shadow: 0 3px 3px #E1E1E1;
+}
+.header-box{
+	width: 1003px;
+	height: 131px;
+	margin: 0 auto;
+}
+header h1{
+	width: 228px;
+	height: 88px;
+	background: url(../images/logo.png) no-repeat;
+	font-size: 0;
+	float: left;
+}
+header input[type="submit"]{
+	width: 22px;
+	height: 19px;
+	border-left: 1px solid #e1e1e1;
+	background: #535353 url(../../10.20_mobile/images/serch.png) 3px 3px no-repeat;
+	outline: none;
+	float: right;
+}
+header form{
+	width: 204px;
+	height: 19px;
+	border: 1px solid #E1E1E1;
+}
+header input[type="text"]{
+	width: 181px;
+	height: 19px;
+	outline: none;
+	float: left;
+	text-indent: 5px;
+}
+header .language{
+	font: 12px/24px "";
+	color: #999999;
+	margin-right: 12px;
+}
+header .language a{
+	color: #999999;
+}
+.header-box>div:nth-of-type(1){
+	float: right;
+	margin-top: 43px;
+}
+.header-box>div:nth-of-type(1) .language{
+	float: left;
+}
+.header-box>div:nth-of-type(1) form{
+	float: left;
+}
+header nav li{
+	float: left;
+	margin-right: 60px;
+	text-indent: 4px;
+}
+header nav li a{
+	color: #070707;
+
+}
+header nav li:last-child{
+	margin: 0;
+}
+header nav li:nth-last-child(2) a{
+	font-family: "黑体";
+	color: #000000;
+}
+header nav{
+	float: left;
+	font: 14px/14px "微软雅黑";
+	margin-top: 20px;
+}
+header nav li a i{
+	display: block;
+	height: 5px;
+	background: url(../images/sanjiao.png) 100px 0 no-repeat;
+	margin-top: -5px;
+}
+header nav li a span{
+	position: absolute;
+	display: none;
+	height: 20px;
+	padding: 0 10px;
+	line-height: 20px;
+	background-color: #ee4911;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: -85px;
+}
+header nav li a:hover{
+	color: #ec5c1d;
+}
+header nav li a:hover span{
+	display: block;
+	
+}
+
+
+
+
+
+
+/*-----------------------------------header结束-----------------------*/
+
+.content{
+	width: 1003px;
+	margin: 0 auto;
+}
+
+
+/*---------------------------content结束---------------------------*/
+footer{
+	width: 1003px;
+	margin: 0 auto;
+	height: 65px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	font: 12px/12px "";
+	color: #656565;
+}
+footer p{
+	float: left;
+	margin-right: 18px;
+}
+footer p:last-child{
+	float: right;
+	margin: 0;
+}
+/*-------------------------------------footer结束------------------------------*/

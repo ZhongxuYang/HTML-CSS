@@ -1,0 +1,73 @@
+.content{
+	background-color: #fcfcfc;
+}
+.content .top nav{
+	float: left;
+}
+.content .top nav a{
+	float: left;
+	width: 136px;
+	height: 35px;
+	background-color: #7f7f7f;
+	font: bold 16px/35px "微软雅黑";
+	text-align: center;
+	margin-right: 1px;
+}
+.content .top nav a i{
+	border: 10px solid transparent;
+	border-top-color: #ef4813;
+	border-bottom: none;
+	display: none;
+}
+.content .top nav li:first-child a{
+	background-color: #494949;
+}
+.content .top nav li{
+	float: left;
+}
+.content .top nav li a{
+	color: #fff;
+}
+.content .top nav li a:hover{
+	background-color: #ef4811;
+}
+.content .top nav li a:hover i{
+	display: block;
+	position: absolute;
+	margin-left: 60px;
+}
+.content .top>div:last-child{
+	height: 35px;
+	box-sizing: border-box;
+	background-color: #F1F1F1;
+	border-bottom: 2px solid #c1c1c1;
+}
+.content .top>div:last-child p{
+	margin-right: 25px;
+	float: right;
+	line-height: 35px;
+	color: #666666;
+}
+.content .top>div:last-child p a{
+	color: #666666;
+}
+.content .bottom{
+	padding: 54px 20px;
+	border: 1px solid #e8e8e8;
+}
+.content .bottom dt{
+	float: left;
+	margin-right: 16px;
+}
+.content .bottom dd{
+	float: left;
+	width: 690px;
+}
+.content .bottom dd h3{
+	color: #666;
+	font: bold 16px/36px "";
+}
+.content .bottom dd p{
+	font: 14px/24px "";
+	color: #666;
+}

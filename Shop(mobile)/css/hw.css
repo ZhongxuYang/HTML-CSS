@@ -1,0 +1,106 @@
+header{
+	height: 0.9rem;
+	background: #ef3239;
+	border-bottom: 1px solid #b2b2b2;
+	padding: 0.825rem 0.9rem;
+}
+header .menu{
+	float: left;
+	width: 0.775rem;
+	height: 0.575rem;
+	background: url(../images/menu.png);
+	background-size: 0.425rem 0.55rem;
+	margin-top: 0.15rem;
+}
+header .logo{
+	float: left;
+	background: url(../images/logo.png) 0 0.15rem no-repeat;
+	background-size: 0.425rem 0.55rem;
+	font: 0.75rem "arial";
+	color: #fff;
+	padding-left: 0.85rem;
+	margin-left: 3rem;
+}
+header .f12{
+	float: right;
+	width: 0.675rem;
+	height: 0.75rem;
+	background: url(../images/f12.png);
+	background-size: 0.675rem 0.75rem;
+}
+nav{
+	height: 2.2rem;
+	border-bottom: 1px solid #B2B2B2;
+}
+nav a{
+	float: left;
+	width: 4rem;
+	height: 2.2rem;
+	font: 0.75rem/2.2rem "宋体";
+	color: #848689;
+	text-align: center;
+}
+
+a:nth-child(1) img{
+	width: 0.775rem;
+	height: 0.45rem;
+	margin-left: 0.225rem;
+	vertical-align: 0.05rem;
+}
+a:nth-child(3) img{
+	width: 0.35rem;
+	height: 0.5rem;
+	margin-left: 0.225rem;
+	vertical-align: 0.03rem;
+}
+a:nth-child(4) img{
+	width: 0.775rem;
+	height: 0.775rem;
+	margin-left: 0.225rem;
+	vertical-align: -0.15rem;
+}
+nav a:hover{
+	color: #f23838;
+}
+#content{
+	background-color: #f8f8f8;
+}
+#content dl:nth-child(n){
+	height: 6rem;
+	border-bottom: 1px solid #B2B2B2;
+	padding: 0.5rem;
+	box-sizing: border-box;
+}
+#content dt img{
+	width: 5rem;
+	height: 5rem;
+	border-radius: 0.1rem;
+}
+dt{
+	float: left;
+}
+#content dd a:first-child{
+	display: block;
+	font: 0.6rem/0.95rem "微软雅黑";
+	color: #333333;
+}
+#content dd a:nth-child(2){
+	display: block;
+	font: 0.85rem/0.85rem "微软雅黑";
+	color: #f23838;
+	margin-top: 0.95rem;
+}
+#content dd a:nth-child(3){
+	display: block;
+	font: 0.6rem/1.45rem "微软雅黑";
+	color: #808080;
+}
+dd{
+	float: right;
+	width: 9.2rem;
+}
+a{
+	text-decoration: none;
+	/*清除点击链接和文本框对象时默认的灰色半透明覆盖层(iOS)或者虚框(Android)*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
